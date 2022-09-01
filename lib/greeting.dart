@@ -1,5 +1,6 @@
 import 'dart:io';
 
+/// function [greeting] will need 2 input, name and age
 void greeting() {
   stdout.write('Your Name : ');
   String name = stdin.readLineSync()!;
